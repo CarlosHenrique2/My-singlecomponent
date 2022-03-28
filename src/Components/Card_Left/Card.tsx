@@ -1,6 +1,6 @@
 import "./Style.css";
 
-const Card_Left = () => {
+const Card_left = () => {
   return (
     <div className="Card-left">
       <h3>Why Us</h3>
@@ -13,4 +13,4 @@ const Card_Left = () => {
   );
 };
 
-export default Card_Left;
+export default Card_left;
