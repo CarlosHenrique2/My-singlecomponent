@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  background-color: #4abebd;
+  height: 270px;
+  padding: 25px;
+  gap: 0.9rem;
+  color: #e6fefe;
+}
+
+.Card-info {
+  margin-right: 110px;
+}

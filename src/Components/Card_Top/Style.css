@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Card-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  background-color: white;
+  width: 100%;
+  height: 180px;
+  padding: 25px;
+  gap: 0.5rem;
+}
+
+.Card_content {
+  margin: 1px;
+}
+
+.title {
+  color: #3aacad;
+}
+
+.title-sub {
+  color: hsl(71, 73%, 54%);
+}
+
+.text {
+  color: hsl(218, 22%, 67%);
+}
+
+@media (max-width: 375px) {
+  .Card-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    background-color: white;
+    width: 100%;
+    height: 180px;
+    padding: 25px;
+    gap: 0.7rem;
+  }
+  .title {
+    font-size: 20px;
+  }
+
+  .title-sub {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+}

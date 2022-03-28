@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  background-color: hsl(179, 62%, 43%);
+  width: 350px;
+  height: 270px;
+  padding: 30px;
+  gap: 0.5rem;
+  color: #e6fefe;
+}
+
+.Card-price {
+  display: flex;
+  align-items: center;
+  color: #e6fefe;
+}
+
+.Card-price-title {
+  font-size: 30px;
+  padding-right: 10px;
+  color: #e6fefe;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 15px 90px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: hsl(71, 73%, 54%);
+  color: #e6fefe;
+}
