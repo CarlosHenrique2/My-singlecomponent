@@ -1,6 +1,6 @@
 import "./Style.css";
 
-const Card_top = () => {
+const CardTop = () => {
   return (
     <div className="Card-top">
       <h1 className="title">Join Our Community</h1>
@@ -14,4 +14,4 @@ const Card_top = () => {
   );
 };
 
-export default Card_top;
+export default CardTop;
